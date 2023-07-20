@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b043f1-4f15-4b35-b352-791616321516" name="Changes" comment="Registering Customer service as a eureka client">
-      <change afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="01b043f1-4f15-4b35-b352-791616321516" name="Changes" comment="Implemented open feign to ensure communication between the two microservices by declaring a fraud client interface as an endpoint to consume the api in a clean and concise manner.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/test/java/org/example/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/example/FraudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/org/example/FraudApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/example/controller/FraudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/org/example/controller/FraudController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/example/model/FraudCheckResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +93,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FraudApplication">
+  <component name="RunManager" selected="Spring Boot.CustomerApplication">
     <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.CustomerApplication" />
@@ -159,7 +150,7 @@
       <workItem from="1689680893530" duration="2201000" />
       <workItem from="1689694119233" duration="7118000" />
       <workItem from="1689787718263" duration="6285000" />
-      <workItem from="1689859142292" duration="3998000" />
+      <workItem from="1689859142292" duration="5918000" />
     </task>
     <task id="LOCAL-00001" summary="Created the first microservice (Customer)">
       <created>1689365459140</created>
@@ -280,7 +271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689795492338</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Implemented open feign to ensure communication between the two microservices by declaring a fraud client interface as an endpoint to consume the api in a clean and concise manner.">
+      <created>1689866292376</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689866292376</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Implemented open feign to ensure communication between the two microservices by declaring a fraud client interface as an endpoint to consume the api in a clean and concise manner.">
+      <created>1689866303935</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689866303935</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +317,7 @@
     <MESSAGE value="Setting up eureka server" />
     <MESSAGE value="Changed the spring boot and spring cloud version for an incompatibility problem. now fixed, eureka sever is running successfully" />
     <MESSAGE value="Registering Customer service as a eureka client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Registering Customer service as a eureka client" />
+    <MESSAGE value="Implemented open feign to ensure communication between the two microservices by declaring a fraud client interface as an endpoint to consume the api in a clean and concise manner." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented open feign to ensure communication between the two microservices by declaring a fraud client interface as an endpoint to consume the api in a clean and concise manner." />
   </component>
 </project>

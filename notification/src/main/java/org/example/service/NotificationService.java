@@ -1,9 +1,8 @@
 package org.example.service;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import org.example.clients.notification.NotificationRequest;
 import org.example.model.Notification;
-import org.example.model.NotificationRequest;
 import org.example.repository.INotificationRepository;
 import org.springframework.stereotype.Service;
 

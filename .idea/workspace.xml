@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b043f1-4f15-4b35-b352-791616321516" name="Changes" comment="added a new microservice (Notification)">
+    <list default="true" id="01b043f1-4f15-4b35-b352-791616321516" name="Changes" comment="Registered notification as a OpenFeign client">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/example/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/controller/NotificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/example/model/NotificationRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/example/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/fraud/FraudClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/fraud/FraudClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/notification/NotificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/org/example/clients/notification/NotificationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/controller/CustomerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "2411163105e003a8badae9dd2587b263",
+    "spring.configuration.checksum": "2096ce528bb5640eeb18656f17e5db45",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,7 +95,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NotificationApp">
+  <component name="RunManager" selected="Spring Boot.CustomerApplication">
     <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.CustomerApplication" />
@@ -161,7 +160,8 @@
       <workItem from="1689694119233" duration="7118000" />
       <workItem from="1689787718263" duration="6285000" />
       <workItem from="1689859142292" duration="7687000" />
-      <workItem from="1689948480398" duration="7806000" />
+      <workItem from="1689948480398" duration="9584000" />
+      <workItem from="1690058114224" duration="2857000" />
     </task>
     <task id="LOCAL-00001" summary="Created the first microservice (Customer)">
       <created>1689365459140</created>
@@ -310,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689956113351</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Registered notification as a OpenFeign client">
+      <created>1689956814060</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1689956814060</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +352,17 @@
     <MESSAGE value="Implemented open feign to ensure communication between the two microservices by declaring a fraud client interface as an endpoint to consume the api in a clean and concise manner." />
     <MESSAGE value="fixed &quot;Spring cannot find a bean of type org.example.FraudClient to be injected into the CustomerController constructor.&quot; error" />
     <MESSAGE value="added a new microservice (Notification)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a new microservice (Notification)" />
+    <MESSAGE value="Registered notification as a OpenFeign client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Registered notification as a OpenFeign client" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.UnknownHostException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b043f1-4f15-4b35-b352-791616321516" name="Changes" comment="changed spring boot and spring cloud's version to fix incompatibility issue caused by sleuth's dependency">
+    <list default="true" id="01b043f1-4f15-4b35-b352-791616321516" name="Changes" comment="added zipkin / sleuth-zipkin">
+      <change afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/java/org/example/ApigwApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fraud/src/main/java/org/example/FraudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/src/main/java/org/example/FraudApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/org/example/NotificationApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/org/example/NotificationApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +99,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.CustomerApplication">
+    <configuration name="ApigwApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="apigw" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ApigwApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.CustomerApplication" />
@@ -168,7 +172,8 @@
       <workItem from="1689859142292" duration="7687000" />
       <workItem from="1689948480398" duration="9584000" />
       <workItem from="1690058114224" duration="7148000" />
-      <workItem from="1690138054438" duration="4863000" />
+      <workItem from="1690138054438" duration="5662000" />
+      <workItem from="1690192270245" duration="2763000" />
     </task>
     <task id="LOCAL-00001" summary="Created the first microservice (Customer)">
       <created>1689365459140</created>
@@ -345,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690140910714</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="added zipkin / sleuth-zipkin">
+      <created>1690143124172</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1690143124172</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +396,8 @@
     <MESSAGE value="fixed the miscommunication when using the open feign clients in the customer controller" />
     <MESSAGE value="added sleuth for distributed tracing" />
     <MESSAGE value="changed spring boot and spring cloud's version to fix incompatibility issue caused by sleuth's dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed spring boot and spring cloud's version to fix incompatibility issue caused by sleuth's dependency" />
+    <MESSAGE value="added zipkin / sleuth-zipkin" />
+    <option name="LAST_COMMIT_MESSAGE" value="added zipkin / sleuth-zipkin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
